@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    height: 400px;
+    width: 700px;
+    background-color: bisque;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:5px;
+    
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-items: end;
+    align-items:center;
+    place-items:center start;
+}
+.box {
+    border: 1px solid;
+}
+
+    
